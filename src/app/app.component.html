@@ -1,4 +1,7 @@
-<app-nova-transferencia (aoTransferir)="transferirApp($event)"></app-nova-transferencia> <!--receberam o valor de nova-transferencia.component.ts -->
-
-<app-extrato [transferenciaExtrato]="transferenciasApp"></app-extrato>
-
+<header>
+  <a routerLink="extrato">Bytebank</a>
+  <a routerLink="nova-transferencia" routerLinkActive="ativo">Nova transferência</a>
+</header>
+<main>
+  <router-outlet></router-outlet>
+</main>
