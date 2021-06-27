@@ -1,5 +1,5 @@
 # Curso Alura
-Curso em andamento
+Curso de Angular: Começando com o framework pela Alura concluido
 
 # Bytebank
 
